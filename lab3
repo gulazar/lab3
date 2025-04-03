@@ -1,0 +1,12 @@
+import math
+e=0.001
+x=0.2
+y=0 
+a=0 
+b=0
+b=math.sin(b)*x/math.factorial(b)
+while abs(b)>e:
+    y=y+b 
+    a=a+2
+    b=math.sin(b)*x/math.factorial(b)
+print(y)
